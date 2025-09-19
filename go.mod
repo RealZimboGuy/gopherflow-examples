@@ -3,7 +3,7 @@ module github.com/RealZimboGuy/gopherflow_example
 go 1.24.3
 
 require (
-	github.com/RealZimboGuy/gopherflow v1.0.5
+	github.com/RealZimboGuy/gopherflow v1.0.6
 	github.com/google/uuid v1.6.0
 )
 
