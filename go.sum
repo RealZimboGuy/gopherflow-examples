@@ -7,6 +7,7 @@ github.com/Microsoft/go-winio v0.6.2/go.mod h1:yd8OoFMLzJbo9gZq8j5qaps8bJ9aShtEA
 github.com/RealZimboGuy/gopherflow v1.0.5 h1:1/Cv52N5LEt3SbYtUxH1YMHPyxTeJG3mqDQvKYk1OEE=
 github.com/RealZimboGuy/gopherflow v1.0.5/go.mod h1:xc/vdHx+PPI8No5TyeUaucaEQkLXezkO4dpZCxGR0uA=
 github.com/RealZimboGuy/gopherflow v1.0.6/go.mod h1:xc/vdHx+PPI8No5TyeUaucaEQkLXezkO4dpZCxGR0uA=
+github.com/RealZimboGuy/gopherflow v1.0.8/go.mod h1:xc/vdHx+PPI8No5TyeUaucaEQkLXezkO4dpZCxGR0uA=
 github.com/containerd/errdefs v1.0.0 h1:tg5yIfIlQIrxYtu9ajqY42W3lpS19XqdxRQeEwYG8PI=
 github.com/containerd/errdefs v1.0.0/go.mod h1:+YBYIdtsnF4Iw6nWZhJcqGSg/dwvV7tyJ/kCkyJ2k+M=
 github.com/containerd/errdefs/pkg v0.3.0 h1:9IKJ06FvyNlexW690DXuQNx2KA2cUJXx151Xdx3ZPPE=
