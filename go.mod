@@ -2,7 +2,7 @@ module github.com/RealZimboGuy/gopherflow_example
 
 go 1.24.3
 
-require github.com/RealZimboGuy/gopherflow v1.0.11
+require github.com/RealZimboGuy/gopherflow v1.0.13
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect

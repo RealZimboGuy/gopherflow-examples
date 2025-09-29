@@ -20,11 +20,14 @@ func main() {
 		"GetIpWorkflow": reflect.TypeOf(workflows.GetIpWorkflow{}),
 	}
 	mux := http.NewServeMux()
-	
+
 	demoController := controllers.NewDemoController()
 	demoController.RegisterRoutes(mux)
 
-	if err := gopherflow.Start(mux); err != nil {
+	app := gopherflow.Setup(mux)
+
+	if err := app.Run(); err != nil {
 		slog.Error("Engine exited with error", "error", err)
 	}
+
 }
