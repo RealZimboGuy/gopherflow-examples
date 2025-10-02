@@ -62,7 +62,7 @@ func (m *GetIpWorkflow) GetAllStates() []models.WorkflowState {
 }
 
 // Each method returns the next state
-func (m *GetIpWorkflow) Init() (*models.NextState, error) {
+func (m *GetIpWorkflow) Start() (*models.NextState, error) {
 	slog.Info("Starting workflow")
 
 	return &models.NextState{

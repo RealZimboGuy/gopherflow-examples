@@ -7,8 +7,8 @@ import (
 type DemoController struct {
 }
 
-func (c *DemoController) RegisterRoutes(mux *http.ServeMux) {
-	mux.HandleFunc("/demo", c.handleGetDemo)
+func (c *DemoController) RegisterRoutes() {
+	http.HandleFunc("/demo", c.handleGetDemo)
 }
 
 func NewDemoController() *DemoController {
