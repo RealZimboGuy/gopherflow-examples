@@ -1,7 +1,9 @@
 package main
 
 import (
+	"context"
 	"log/slog"
+	"os"
 
 	"github.com/RealZimboGuy/gopherflow/pkg/gopherflow"
 	"github.com/RealZimboGuy/gopherflow/pkg/gopherflow/core"
@@ -12,6 +14,10 @@ import (
 
 func main() {
 
+	//use your own database type here, this is just to make the example easy to start and run
+	os.Setenv("GFLOW_DATABASE_TYPE", "SQLLITE")
+
+	ctx := context.Background()
 	//you may do your own logger setup here or use this default one with slog
 	gopherflow.SetupLogger()
 
@@ -33,7 +39,7 @@ func main() {
 
 	app := gopherflow.Setup()
 
-	if err := app.Run(); err != nil {
+	if err := app.Run(ctx); err != nil {
 		slog.Error("Engine exited with error", "error", err)
 	}
 
