@@ -3,7 +3,7 @@ module github.com/RealZimboGuy/gopherflow_example
 go 1.26.0
 
 require (
-	github.com/RealZimboGuy/gopherflow v1.9.0
+	github.com/RealZimboGuy/gopherflow v1.9.1
 	github.com/mkevac/debugcharts v0.0.0-20191222103121-ae1c48aa8615
 )
 
